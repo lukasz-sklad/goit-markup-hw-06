@@ -28,7 +28,6 @@
             </nav>
             <ul class="contacts nav-li">
                 <li>
-                    <!-- <p> -->
                     <a href="info@devstudio.com" class="link-s">
                         <div class="svg-top-two">
                             <svg class="icon-spacing" width="16px" height="16px">
@@ -38,10 +37,8 @@
                             info@devstudio.com
                         </div>
                     </a>
-                    <!-- </p> -->
                 </li>
                 <li>
-                    <!-- <p> -->
                     <a href="+48111111111" class="link-s">
                         <div class="svg-top-one">
                             <svg class="icon-spacing" width="10px" height="16px">
@@ -50,7 +47,6 @@
                             </svg>+48&#xa0;111&#xa0;111&#xa0;111
                         </div>
                     </a>
-                    <!-- </p> -->
                 </li>
             </ul>
         </header>
@@ -80,7 +76,6 @@
                             </svg>
                         </div>
 
-
                     </li>
                     <li>
                         <div class="svg">
@@ -90,7 +85,6 @@
                             </svg>
                             </svg>
                         </div>
-
 
                     </li>
                     <li>
@@ -102,7 +96,6 @@
                             </svg>
                         </div>
 
-
                     </li>
                     <li>
                         <div class="svg">
@@ -113,7 +106,6 @@
                             </svg>
                             </svg>
                         </div>
-
 
                     </li>
                 </ul>
@@ -181,7 +173,6 @@
                             alt="Używa tabletu">
 
                         <p class="img-label">Rozwiązania graficzne</p>
-
 
                     </li>
                 </ul>
@@ -428,65 +419,57 @@
                     </form>
                 </div>
             </div>
-
         </footer>
     </main>
     <div class="modal is-hidden" data-modal>
-
-        <div class="">
-
-
-            <button type="button" class="btn" data-modal-open>X</button>
-
-            <button type="button" class="btn" data-modal-close>X</button>
-
-            <form name="contact" autocomplete="on" class="form-modal">
-                <h5 class="header-modal">Zostaw swoje dane w formularzu poniżej</h5>
-                <label for="user-name" class="label-modal">Imię</label>
-                <div class="form-highlight">
-                    <input type="text" name="name" class="input-modal" id="user-name" />
-                    <svg width="12" height="12" class="input-modal-icon icon-per">
-                        <use xlink:href="./images/icons.svg#person"></use>
-                    </svg>
-                </div>
-                <label for="user-phone" class="label-modal">Telefon</label>
-                <div class="form-highlight">
-                    <input type="tel" name="phone" class="input-modal" id="user-phone" />
-                    <svg width="13" height="13" class="input-modal-icon icon-tel">
-                        <use xlink:href="./images/icons.svg#phone"></use>
-                    </svg>
-                </div>
-                <label for="user-mail" class="label-modal">Email</label>
-                <div class="form-highlight">
-                    <input type="email" name="mail" class="input-modal" id="user-mail" />
-                    <svg width="15" height="12" class="input-modal-icon icon-mail">
-                        <use xlink:href="./images/icons.svg#mail"></use>
-                    </svg>
-                </div>
-                <label for="user-comment" class="label-modal">Komentarz</label>
-                <div class="form-highlight">
-                    <textarea name="comment" id="user-comment" placeholder="Wprowadź tekst"
-                        class="input-modal-text"></textarea>
-                </div>
-                <label class="user-checkbox-label">
-                    <input id="user-agreement" type="checkbox" name="agreement" value="agreement" class="checkbox box-hidden" required />
-                    <svg class="checkbox-svg">
-                        <use href="./images/icons.svg#icon-quadrat"></use>
-                        <g class="vector">
-                            <use href="./images/icons.svg#icon-vector" width="11" height="8" x="2.5" y="3.5"></use>
-                        </g>
-                    </svg>
-
-                    <p>
-                        Oświadczam iż akceptuję
-                        <a href="#" class="agreement-link">Regulamin</a> i
-                        <a href="#" class="agreement-link">Politykę Prywatności</a>.
-                    </p>
-                </label>
-                <button type="submit" class="btn-modal-send">Wyślij</button>
-            </form>
-        </div>
+        <button type="button" class="btn" data-modal-close>X</button>
+        <form name="contact" autocomplete="on" class="form-modal">
+            <h5 class="header-modal">Zostaw swoje dane w formularzu poniżej</h5>
+            <label for="user-name" class="label-modal">Imię</label>
+            <div class="form-highlight">
+                <input type="text" name="name" class="input-modal" id="user-name" />
+                <svg width="12" height="12" class="input-modal-icon icon-per">
+                    <use xlink:href="./images/icons.svg#person"></use>
+                </svg>
+            </div>
+            <label for="user-phone" class="label-modal">Telefon</label>
+            <div class="form-highlight">
+                <input type="tel" name="phone" class="input-modal" id="user-phone" />
+                <svg width="13" height="13" class="input-modal-icon icon-tel">
+                    <use xlink:href="./images/icons.svg#phone"></use>
+                </svg>
+            </div>
+            <label for="user-mail" class="label-modal">Email</label>
+            <div class="form-highlight">
+                <input type="email" name="mail" class="input-modal" id="user-mail" />
+                <svg width="15" height="12" class="input-modal-icon icon-mail">
+                    <use xlink:href="./images/icons.svg#mail"></use>
+                </svg>
+            </div>
+            <label for="user-comment" class="label-modal">Komentarz</label>
+            <div class="form-highlight">
+                <textarea name="comment" id="user-comment" placeholder="Wprowadź tekst"
+                    class="input-modal-text"></textarea>
+            </div>
+            <label class="user-checkbox-label">
+                <input id="user-agreement" type="checkbox" name="agreement" value="agreement"
+                    class="checkbox box-hidden" required />
+                <svg class="checkbox-svg">
+                    <use href="./images/icons.svg#icon-quadrat"></use>
+                    <g class="vector">
+                        <use href="./images/icons.svg#icon-vector" width="11" height="8" x="2.5" y="3.5"></use>
+                    </g>
+                </svg>
+                <p>
+                    Oświadczam iż akceptuję
+                    <a href="#" class="agreement-link">Regulamin</a> i
+                    <a href="#" class="agreement-link">Politykę Prywatności</a>.
+                </p>
+            </label>
+            <button type="submit" class="btn-modal-send">Wyślij</button>
+        </form>
     </div>
     <script src="./js/modal.js"></script>
 </body>
+
 </html>
