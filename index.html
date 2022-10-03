@@ -468,19 +468,25 @@
                     <textarea name="comment" id="user-comment" placeholder="Wprowadź tekst"
                         class="input-modal-text"></textarea>
                 </div>
-                <div class="user-agreements">
-                    <input type="checkbox" required name="agreement" class="box-custom box-hidden"
-                        id="user-agreement" />
-                    <p class="agreement-text">
-                        Oświadczam, iż akceptuję <a href="#" class="agreement-link">Regulamin</a> i
+                <label class="user-checkbox-label">
+                    <input id="user-agreement" type="checkbox" name="agreement" value="agreement" class="checkbox box-hidden" required />
+                    <svg class="checkbox-svg">
+                        <use href="./images/icons.svg#icon-quadrat"></use>
+                        <g class="vector">
+                            <use href="./images/icons.svg#icon-vector" width="11" height="8" x="2.5" y="3.5"></use>
+                        </g>
+                    </svg>
+
+                    <p>
+                        Oświadczam iż akceptuję
+                        <a href="#" class="agreement-link">Regulamin</a> i
                         <a href="#" class="agreement-link">Politykę Prywatności</a>.
                     </p>
-                </div>
+                </label>
                 <button type="submit" class="btn-modal-send">Wyślij</button>
             </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
 </body>
-
 </html>
