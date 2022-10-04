@@ -228,7 +228,7 @@ li {
 	transition-property: background-color;
 	transition-duration: 2s;
 }
-.button-index:hover {
+/* .button-index:hover {
 	color: var(--blue);
 	background-color: var(--white);
 	border-style: none;
@@ -236,7 +236,7 @@ li {
 	font-weight: 700;
 	font-size: 16px;
 	cursor: pointer;
-}
+} */
 .team-background {
 	background-color: var(--cream);
 	padding: 94px 0;
